@@ -1,0 +1,18 @@
+#form::before{
+    content: "";
+    position: absolute;
+    background-image: url('../img/blob.svg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 130%;
+    width: 100%;
+    z-index: -1;
+
+    top: -120px;
+    left: 0;
+
+    transform: scale(1,0.7);
+    overflow: visible;
+}

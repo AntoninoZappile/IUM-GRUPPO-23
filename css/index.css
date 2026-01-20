@@ -1,0 +1,40 @@
+#hero {
+    background-image: url('../img/campusFisciano.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 850px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    position: relative; /* To position the overlay */
+    z-index: 1; /* Ensure the text is above the overlay */
+}
+
+#hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay with transparency */
+    z-index: -1; /* Ensure the overlay is behind the text */
+}
+
+#goals{
+    background-image: url("../img/waves.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}

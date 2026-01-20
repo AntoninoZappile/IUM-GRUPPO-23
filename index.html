@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeStudy</title>
+    <link href="css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="bg-base">
+    <header class="sticky top-0 w-full flex items-center px-2 py-3 bg-secondary text-base gap-5 items-end shadow-md z-5">
+        <h1 class="text-5xl font-bold">WeStudy</h1>
+        <nav class="w-full flex justify-between items-center">
+            <ul class="flex text-3xl list-none gap-4 font-medium">
+                <li><a href="" class="text-primary text-underline">Home</a></li>
+                <li id="appuntiLink"><a href="appunti/index.html" class="text-base hover:text-primary">Appunti</a></li>
+                <li id="forumLink"><a href="forum/index.html" class="text-base hover:text-primary">Forum</a></li>
+            </ul>
+            <ul id="userArea" class="flex text-3xl list-none font-medium mr-5">
+                <li><a href="account/login.html" class="text-base hover:text-primary">Accedi</a></li>
+                <span class="slash">/</span>
+                <li><a href="account/register.html" class="text-base hover:text-primary">Registrati</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" class="flex flex-column gap-5">
+            <h1 class="text-6xl font-normal line-h-xs">Benvenuto su <br> <span class="font-bold">WeStudy</span></h1>
+            <p class="text-3xl font-medium">Il sito per gli appunti universitari</p>
+        </section>
+        <section id="goals" class="w-full h-6 flex flex-column line-h-3xl text-lg font-medium">
+            <h1 class="text-base self-center text-5xl pt-5 mb-5">Il Nostro Obiettivo</h1>
+            <span class="spacer-5"></span>
+            <p>WeStudy è una piattaforma online pensata apposta per gli studenti universitari, che permette la condivisione di materiale didattico e la comunicazione tra gli utenti tramite forum e chat private. </p>
+        </section>
+        <section id="team" class="w-full h-6 flex flex-column line-h-3xl text-lg font-medium">
+            <h1 class="text-neutral self-center text-5xl pt-5 mb-5">Il Nostro Team</h1>
+        </section>
+    </main>
+    <div class="w-full h-6"></div>
+    <script src="services/account.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+</html>

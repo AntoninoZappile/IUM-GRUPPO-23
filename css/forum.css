@@ -1,0 +1,89 @@
+.input-area-container-1 {
+  position: absolute;
+  transform: translate(-1.5rem,5rem);
+  z-index: 10;
+}
+
+.input-area-container-2 {
+  position: absolute;
+  transform: translate(8rem,5rem);
+  z-index: 10;
+}
+
+.input-area-container-3 {
+  position: absolute;
+  transform: translate(18rem,5rem);
+  z-index: 10;
+}
+
+#taglist {
+  max-width: 16rem;
+}
+
+.card{
+  border-radius: 1rem 1rem 0rem 1rem;
+}
+
+.card-comment{
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.btn-comment {
+  position: absolute;
+  right: 0rem;
+  width: 10rem;
+  background-color: var(--color-primary);
+  color: var(--color-base);
+  padding: 0.5rem 1rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+  transition: width 0.5s ease, border-radius 0.5s ease;
+}
+.btn-comment-2 {
+  width: 100%;
+}
+.btn-comment-3 {
+  position: relative;
+  border-radius: 0rem;
+}
+
+.comments-area {
+  position: relative;
+  border-radius: 0rem 0rem 1rem 1rem;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s ease;
+}
+
+.comments-area-active {
+  padding: 0.5rem;
+  height: 100%;
+}
+
+.comments-area::before {
+  content: "";
+  position: absolute;
+  background-color: var(--color-secondary);
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 0rem 0rem 1rem 1rem;
+  opacity: 0.3;
+}
+
+.comment{
+  position: relative;
+}
+
+.comment::before {
+  content: "";
+  position: absolute;
+  background-color: var(--color-secondary);
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}

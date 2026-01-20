@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Appunti Analisi 1 - Completi e Ordinati",
+    "text": "Condivido i miei appunti di Analisi 1 presi durante il primo semestre. Coprono limiti, derivate, integrali e serie. Disponibili in PDF.",
+    "user": "MarcoR",
+    "tags": ["analisi", "matematica", "primo-anno"],
+    "date": "2025-02-10",
+    "comments": [
+      {
+        "username": "Luca09",
+        "text": "Li ho scaricati, davvero chiari e ben strutturati!",
+        "votes": 12
+      },
+      {
+        "username": "EliStudent",
+        "text": "Mancano alcuni esempi sulle serie, ma comunque molto utili.",
+        "votes": 5
+      }
+    ]
+  },
+  {
+    "title": "Riassunti di Diritto Privato",
+    "text": "Riassunti fatti per preparare l'esame di Diritto Privato. Coprono tutti i capitoli principali e includono schemi e mappe concettuali.",
+    "user": "GiuliaLaw",
+    "tags": ["diritto", "giurisprudenza", "esame"],
+    "date": "2025-01-28",
+    "comments": [
+      {
+        "username": "Mattia_22",
+        "text": "Perfetti per ripassare prima dell'esame! Grazie mille.",
+        "votes": 8
+      },
+      {
+        "username": "SaraP",
+        "text": "Un po' sintetici in alcuni punti, ma comunque ottimi.",
+        "votes": 3
+      }
+    ]
+  },
+  {
+    "title": "Esercizi Svolti di Programmazione Java",
+    "text": "Raccolta di esercizi svolti di Java: classi, ereditarietà, eccezioni, collezioni e un mini progetto finale.",
+    "user": "DevAle",
+    "tags": ["informatica", "java", "programmazione"],
+    "date": "2025-02-02",
+    "comments": [
+      {
+        "username": "Coder97",
+        "text": "Mi hanno salvato la vita per il compito in classe 😂",
+        "votes": 15
+      },
+      {
+        "username": "NicoTech",
+        "text": "Molto utili, anche se sarebbe bello avere più esempi sulle interfacce.",
+        "votes": 4
+      },
+      {
+        "username": "Vale",
+        "text": "Perfetti, grazie davvero!",
+        "votes": 9
+      }
+    ]
+  }
+]

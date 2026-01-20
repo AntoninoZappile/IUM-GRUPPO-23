@@ -1,0 +1,92 @@
+.card {
+  border-radius: 0rem 1rem 1rem 1rem;
+}
+
+.subject {
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.save {
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.upload-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.upload-box {
+    border: 3px dashed #ff6b35;
+    border-radius: 12px;
+    padding: 60px 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.upload-box:hover {
+    background-color: #fff5f2;
+    border-color: #ff4500;
+}
+
+.upload-box.dragover {
+    background-color: #fff5f2;
+    border-color: #ff4500;
+    transform: scale(1.02);
+}
+
+.upload-label {
+    display: block;
+    cursor: pointer;
+}
+
+.upload-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff6b35;
+    margin-bottom: 10px;
+}
+
+.upload-icon {
+    font-size: 42px;
+    margin-left: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-info {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    display: none;
+}
+
+.file-info.show {
+    display: block;
+}
+
+.file-name {
+    font-size: 18px;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.input-area-container-1 {
+  position: absolute;
+  transform: translate(-3.5rem,5rem);
+  z-index: 10;
+}
+
+.input-area-container-2 {
+  position: absolute;
+  transform: translate(8rem,5rem);
+  z-index: 10;
+}
+
+.input-area-container-3 {
+  position: absolute;
+  transform: translate(18rem,5rem);
+  z-index: 10;
+}
