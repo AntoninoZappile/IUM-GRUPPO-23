@@ -1,0 +1,140 @@
+/* Chat Messages */
+.msg-me {
+    position: relative;
+    background-color: var(--color-base);
+    border: 2px solid var(--color-secondary);
+    border-radius: 1rem;
+    padding: 0.75rem 1rem;
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    max-width: 70%;
+    width: fit-content;
+}
+
+.msg-me::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid var(--color-secondary);
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.msg-me::before {
+    content: '';
+    position: absolute;
+    right: -7px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid var(--color-base);
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    z-index: 1;
+}
+
+.msg-n-me {
+    position: relative;
+    background-color: var(--color-base);
+    border: 2px solid var(--color-primary);
+    border-radius: 1rem;
+    padding: 0.75rem 1rem;
+    margin-right: auto;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    max-width: 70%;
+    width: fit-content;
+}
+
+.msg-n-me::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-right: 10px solid var(--color-primary);
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.msg-n-me::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-right: 8px solid var(--color-base);
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    z-index: 1;
+}
+
+/* Contenitore messaggi */
+#messagesContainer {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: calc(100vh - 300px);
+    padding: 1rem 0;
+}
+
+/* Scrollbar personalizzata */
+#messagesContainer::-webkit-scrollbar {
+    width: 8px;
+}
+
+#messagesContainer::-webkit-scrollbar-track {
+    background: var(--color-muted);
+    border-radius: 10px;
+}
+
+#messagesContainer::-webkit-scrollbar-thumb {
+    background: var(--color-secondary);
+    border-radius: 10px;
+}
+
+#messagesContainer::-webkit-scrollbar-thumb:hover {
+    background: var(--color-secondary-50);
+}
+
+/* Animazione per i nuovi messaggi */
+.msg-me, .msg-n-me {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Chat attiva evidenziata */
+.chat-item.active {
+    background-color: rgba(255, 103, 0, 0.1) !important;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    .msg-me, .msg-n-me {
+        max-width: 85%;
+    }
+    
+    #messagesContainer {
+        height: calc(100vh - 350px);
+    }
+}

@@ -1,0 +1,212 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Algoritmi di Ordinamento",
+      "description": "Appunti completi sugli algoritmi di ordinamento: Bubble Sort, Quick Sort, Merge Sort con analisi della complessità temporale e spaziale. Include esempi pratici e pseudocodice.",
+      "subject": "Informatica",
+      "author": "m.rossi",
+      "authorFullName": "Marco Rossi",
+      "votes": 15,
+      "createdAt": "2026-01-25T10:30:00Z",
+      "files": [
+        {
+          "name": "algoritmi_ordinamento.pdf",
+          "type": "application/pdf"
+        },
+        {
+          "name": "esempi_codice.zip",
+          "type": "application/zip"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Seconda Guerra Mondiale - Riassunto",
+      "description": "Riassunto dettagliato della Seconda Guerra Mondiale: cause, eventi principali, conseguenze. Dall'invasione della Polonia alla resa del Giappone.",
+      "subject": "Storia",
+      "author": "g.bianchi",
+      "authorFullName": "Giulia Bianchi",
+      "votes": 23,
+      "createdAt": "2026-01-24T14:20:00Z",
+      "files": [
+        {
+          "name": "seconda_guerra_mondiale.pdf",
+          "type": "application/pdf"
+        },
+        {
+          "name": "cronologia_eventi.docx",
+          "type": "application/word"
+        },
+        {
+          "name": "mappe_storiche.zip",
+          "type": "application/zip"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Derivate e Integrali",
+      "description": "Formulario completo su derivate e integrali. Regole di derivazione, integrali notevoli, tecniche di integrazione per sostituzione e per parti.",
+      "subject": "Matematica",
+      "author": "l.verdi",
+      "authorFullName": "Luca Verdi",
+      "votes": 31,
+      "createdAt": "2026-01-23T09:15:00Z",
+      "files": [
+        {
+          "name": "formulario_analisi.pdf",
+          "type": "application/pdf"
+        },
+        {
+          "name": "esercizi_svolti.pdf",
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Il Verbo Inglese - Tempi e Modi",
+      "description": "Guida completa ai tempi verbali inglesi: presente, passato, futuro con tutti i loro aspetti (simple, continuous, perfect). Include tabelle riassuntive ed esempi.",
+      "subject": "Inglese",
+      "author": "s.ferrara",
+      "authorFullName": "Sara Ferrara",
+      "votes": 18,
+      "createdAt": "2026-01-22T16:45:00Z",
+      "files": [
+        {
+          "name": "tempi_verbali_inglesi.pdf",
+          "type": "application/pdf"
+        },
+        {
+          "name": "tabella_riepilogativa.xlsx",
+          "type": "application/excel"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Genetica Mendeliana",
+      "description": "Appunti sulle leggi di Mendel, ereditarietà dei caratteri, quadrati di Punnett. Include schemi ed esempi di problemi genetici risolti.",
+      "subject": "Biologia",
+      "author": "a.russo",
+      "authorFullName": "Alessandro Russo",
+      "votes": 12,
+      "createdAt": "2026-01-21T11:30:00Z",
+      "files": [
+        {
+          "name": "genetica_mendel.pdf",
+          "type": "application/pdf"
+        },
+        {
+          "name": "schemi_ereditarieta.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Termodinamica - Primo e Secondo Principio",
+      "description": "Appunti sui principi della termodinamica: lavoro, calore, energia interna, entropia. Con formule fondamentali e applicazioni pratiche.",
+      "subject": "Fisica",
+      "author": "f.colombo",
+      "authorFullName": "Francesco Colombo",
+      "votes": 27,
+      "createdAt": "2026-01-20T13:00:00Z",
+      "files": [
+        {
+          "name": "termodinamica.pdf",
+          "type": "application/pdf"
+        },
+        {
+          "name": "esercizi_termodinamica.pdf",
+          "type": "application/pdf"
+        },
+        {
+          "name": "formulario.docx",
+          "type": "application/word"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Database Relazionali e SQL",
+      "description": "Introduzione ai database relazionali, progettazione ER, normalizzazione. Query SQL: SELECT, JOIN, GROUP BY, subquery. Include esempi pratici.",
+      "subject": "Informatica",
+      "author": "m.marino",
+      "authorFullName": "Maria Marino",
+      "votes": 20,
+      "createdAt": "2026-01-19T15:30:00Z",
+      "files": [
+        {
+          "name": "sql_tutorial.pdf",
+          "type": "application/pdf"
+        },
+        {
+          "name": "esempi_query.txt",
+          "type": "text/plain"
+        },
+        {
+          "name": "schema_database.png",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "L'Illuminismo",
+      "description": "Il movimento illuminista del XVIII secolo: filosofi principali (Voltaire, Rousseau, Montesquieu), idee fondamentali, impatto sulla società europea.",
+      "subject": "Filosofia",
+      "author": "e.gallo",
+      "authorFullName": "Elena Gallo",
+      "votes": 9,
+      "createdAt": "2026-01-18T10:00:00Z",
+      "files": [
+        {
+          "name": "illuminismo.pdf",
+          "type": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Reazioni Chimiche e Stechiometria",
+      "description": "Bilanciamento delle reazioni chimiche, calcoli stechiometrici, reagente limitante, resa percentuale. Con esercizi risolti passo per passo.",
+      "subject": "Chimica",
+      "author": "d.conti",
+      "authorFullName": "Davide Conti",
+      "votes": 16,
+      "createdAt": "2026-01-17T14:15:00Z",
+      "files": [
+        {
+          "name": "stechiometria.pdf",
+          "type": "application/pdf"
+        },
+        {
+          "name": "esercizi_chimica.xlsx",
+          "type": "application/excel"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Poesia del '900 - Ungaretti e Montale",
+      "description": "Analisi della poesia del Novecento italiano. Focus su Giuseppe Ungaretti (L'Allegria) e Eugenio Montale (Ossi di seppia). Temi, stile, contesto storico.",
+      "subject": "Letteratura Italiana",
+      "author": "c.fontana",
+      "authorFullName": "Chiara Fontana",
+      "votes": 14,
+      "createdAt": "2026-01-16T09:45:00Z",
+      "files": [
+        {
+          "name": "poesia_900.pdf",
+          "type": "application/pdf"
+        },
+        {
+          "name": "analisi_poesie.docx",
+          "type": "application/word"
+        }
+      ]
+    }
+  ]
+}
