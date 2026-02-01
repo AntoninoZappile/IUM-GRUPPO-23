@@ -302,6 +302,8 @@ function loadAnnouncements() {
         const savedComments = JSON.parse(localStorage.getItem('forumComments') || '[]');
         allComments = [...allComments, ...savedComments];
         
+        allAnnouncements.push(...JSON.parse(localStorage.getItem('forumAnnouncements') || '[]'));
+
         displayAnnouncements(allAnnouncements);
         
     } catch (error) {

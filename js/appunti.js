@@ -331,7 +331,7 @@ function createPostHTML(post, index) {
 function loadPosts() {
     try {
         allPosts = postsData.posts;
-        
+        allPosts.push(...JSON.parse(localStorage.getItem('post') || '[]'));
         // Carica i voti totali salvati dal localStorage
         const savedVoteCounts = JSON.parse(localStorage.getItem('postVoteCounts') || '{}');
         allPosts.forEach(post => {
@@ -597,3 +597,4 @@ document.addEventListener('DOMContentLoaded', function() {
         dateEndInput.addEventListener('change', filterAndSortPosts);
     }
 });
+

@@ -53,7 +53,7 @@ function createPost() {
     
     // Recupera i post esistenti da localStorage
     let posts = [];
-    const storedPosts = localStorage.getItem('forumPosts');
+    const storedPosts = localStorage.getItem('post');
     if (storedPosts) {
         try {
             posts = JSON.parse(storedPosts);
@@ -68,7 +68,7 @@ function createPost() {
     
     // Salva nel localStorage
     try {
-        localStorage.setItem('forumPosts', JSON.stringify(posts));
+        localStorage.setItem('post', JSON.stringify(posts));
         alert('Post pubblicato con successo!');
         
         // Reset del form
