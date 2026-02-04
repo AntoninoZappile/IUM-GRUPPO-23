@@ -18,7 +18,7 @@ window.addEventListener("load", function() {
         appuntiLink.remove();
         forumLink.remove();
 
-        if (window.location.pathname.search("forum") !== -1)
-            this.window.location.href = "../account/login.html";
+        if (window.location.pathname.search("forum") !== -1 || window.location.pathname.search("appunti") !== -1 || window.location.pathname.search("chat") !== -1) 
+            this.window.location.href = "../index.html";
     }
 });

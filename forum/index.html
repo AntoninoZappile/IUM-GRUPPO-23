@@ -32,7 +32,7 @@
                         <input class="w-full" type="text" name="q" id="q" placeholder="Cerca...">
                         <button class="btn-transparent p-4 absolute translate-y-neg-2 right-0"><i class="bi bi-search"></i></button>
                     </div>
-                    <div class="flex flex-row justify-around mt-3 px-7">
+                    <div class="flex flex-row justify-around mt-3 px-6">
                         <div class="select-bold">
                             <select class="btn btn-lg btn-primary text-3xl" name="sort" id="sort">
                                 <option class="hidden" value="" disabled selected>Ordina</option>
@@ -40,6 +40,7 @@
                                 <option value="oldest">Più vecchi</option>
                                 <option value="most_commented">Più commentati</option>
                             </select>
+                            <i class="bi bi-caret-down-fill text-base"></i>
                         </div>
                         <button type="button" class="btn btn-lg btn-primary text-3xl" onclick="toggleArea('tagarea')">tag <i class="bi bi-tag text-3xl"></i></button>
                         <div id="tagarea" class="bg-muted hidden p-2 input-area-container-1 rounded-md flex flex-column gap-2">
@@ -70,9 +71,8 @@
             </div>
         </div>
         <aside class="chat">
-            <h1 class="text-base text-center w-full mb-3">Chat</h1>
-            
-            <a href="#" class="chat-item relative w-full p-3 flex justify-between items-center cursor-pointer overflow-hidden text-decoration-none">
+            <h1 class="text-base">Chat</h1>
+            <a href="../chat/index.html" class="chat-item relative w-full p-3 flex justify-between items-center cursor-pointer overflow-hidden text-decoration-none">
                 <div class="chat-bg absolute translate-x-neg-2 w-full h-full bg-base"></div>
                 <div class="relative flex items-center gap-2 z-1">
                     <i class="bi bi-person-circle text-3xl"></i>
